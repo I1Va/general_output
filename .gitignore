@@ -1,0 +1,6 @@
+main.cpp
+build
+.cache
+*.out
+*.d
+*.o
