@@ -36,7 +36,7 @@ shift,signed-integer-overflow,undefined,unreachable,vla-bound,vptr
 #EXTRA_FLAGS used in linking in debug mode
 EXTRA_FLAGS =
 
-OUT_FILE_NAME = outpf.out
+OUT_FILE_NAME = gout.out
 
 OUT_O_DIR = build
 COMMONINC = -I./inc
@@ -51,7 +51,7 @@ endif
 
 override CFLAGS += $(COMMONINC)
 
-CSRC = main.cpp src/output_funcs.cpp
+CSRC = main.cpp src/general_output.cpp
 
 COBJ := $(addprefix $(OUT_O_DIR)/,$(CSRC:.cpp=.o))
 
