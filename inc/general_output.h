@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 
+const size_t border_size = 100;
+
 #define GRN "\e[0;32m"
 #define WHT "\e[0;20m"
 #define RED "\e[0;31m"

@@ -34,7 +34,7 @@ integer-divide-by-zero,leak,nonnull-attribute,null,object-size,return,returns-no
 shift,signed-integer-overflow,undefined,unreachable,vla-bound,vptr
 
 #EXTRA_FLAGS used in linking in debug mode
-EXTRA_FLAGS =
+EXTRA_FLAGS =	
 
 OUT_FILE_NAME = gout.out
 
